@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>SecondBook2</title>
+    <link rel="stylesheet" href="">
+    <style type="text/css">
+        .container-fluid{
+            background: linear-gradient( 45deg, #532f23,rgba(255, 68, 0, 0.388),rgb(119, 57, 57),rgb(122, 232, 122));
+            animation:  brown 5s  ease infinite;
+            background-size: 400% 400%;
+
+        @keyframes brown {
+            0% {
+                background-position: 0% 50%;
+            }
+            25% {
+                background-position: 25% 100%;
+            }
+            50% {
+                background-position: 50% 70%;
+            }
+            100% {
+                background-position: 0% 100%;
+            }
+        }
+    }
+        summary~p::before{
+            content:".";
+            color: white;
+            font-size: 30px;
+        }
+
+        p,li{
+            color: white;
+        }
+
+        .container{
+            border: 20px groove black;
+            background-color: black;
+            color: white;
+            width: 400px;
+        }
+
+        .Target{
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        div summary{
+            border-radius: 10px;
+            border: 3px groove rgb(205, 64, 64);
+            background-color: black;
+            padding: 3px;
+            color: white;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+
+            /*Feed Back */
+        .feedback-form{
+            border: 5px groove rgb(142, 126, 126);
+            margin-top: 30px;
+            width: 50%;
+            display: row;
+            background-color: rgb(9, 10, 10);
+            color: white;
+            padding: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: center;
+            align-items: center;
+        }
+        b{
+            color: rgb(12, 7, 6);
+        }
+
+        @media screen and (max-width: 768px) {
+            .container {
+                width: 80%;
+                border: 10px groove black;
+            }
+            .feedback-form {
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .Target{
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+
+        }
+
+        
+    </style>
+</head>
+<body bgcolor="black" class="container-fluid mt-3">
+        <div class="container">
+            <header class="text-center bg-dark text-white p-2">
+                <h1>C Programming For Beginners</h1>
+        
+                <div>
+                    <p class="text-end bg-black p-2 ">
+                        <a href="../index.html" class="text-decoration-none">Back to Home</a>
+                    </p>
+                </div>
+            </header>
+            <div class=" text-center bg-dark text-white p-2">
+                <img src="../public/images/C_Program.jpg" alt="Book 1" class="h-25 w-100">
+            </div> 
+        </div>
+        <div class="Target">
+            <details> 
+                <summary> About This Book</summary>
+                    <p>
+                        This appears to be a book titled "C Programming For Beginners", which is described as "The Simple Guide to Learning C Programming Language Fast!". It is likely an introductory guide aimed at beginners who want to learn the C programming language quickly and efficiently.
+                    </p>    
+            </details><br>
+            <details>
+                <summary>Keys Features</summary>
+                <ul>
+                    <li><b>Beginner-Friendly Approach:- </b> Designed for absolute beginners, providing step-by-step explanations.</li>
+                    <li><b>Fundamentals of C:- </b> Covers basic concepts such as variables, data types, operators, and control structures.</li>
+                    <li><b>Hands-on Examples:- </b> Includes practical examples and exercises to reinforce learning.</li>
+                    <li> <b>Efficient Learning:- </b>Focuses on a fast and simple way to grasp C programming concepts.</li>
+                    <li> <b>Problem-Solving Techniques:-</b> Introduces debugging and logical thinking skills essential for coding in C.</li>
+                </ul>
+            </details><br>
+    
+            <details>
+                <summary>Who is the author ? </summary>
+                <p>
+                    The Simple Guide to Learning C Programming Language Fast!" is authored by Tim Warren.
+                </p>
+            </details><br>
+    
+            <details>
+                <summary>When this book is Published ?</summary>
+                <p>
+                    It was published on December 17 2019.
+                </p>
+            </details><br>
+             
+            <details>
+                <summary>Purchase Link</summary>
+                <ul>
+                    <li><a href="https://www.amazon.in/Programming-Beginners-Simple-Learning-Language/dp/1761032992">Amazon</a></li>
+                    <li><a href="https://www.kobo.com/us/en/ebook/c-programming-for-beginners">Kobo</a></li>
+                    <li><a href="https://www.booksamillion.com/p/C-Programming-Beginners/Tim-Warren/9781761030246">Books-A-Million</a></li>
+                </ul>
+            </details>
+    
+        </div>
+    
+        <!--Feedback Form-->
+    
+        <div class="feedback-form">
+            <h4>Feedback Form</h4>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="mb-3">
+                    <label for="feedback" class="form-label">Your Feedback</label>
+                    <textarea class="form-control" id="feedback" rows="3" placeholder="Write your feedback here"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Submit</button>
+            </form>
+        </div>
+
+</body>
+</html>
